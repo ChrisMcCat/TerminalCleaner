@@ -19,7 +19,7 @@ public class Array {
         //dodanie nowego elementu na poczatek tablicy
         int[] arrayThree = new int[] {3, 5, 3, 6, 7, 8, 9};//inicjacja tablicy
         System.out.println(Arrays.toString(arrayThree));//wydruk sprawdzajacy
-        int[] arrayThreeCopy = Arrays.copyOf(arrayThree, 8);//stworzenie kopii tablicy z rozmiarem +1
+        int[] arrayThreeCopy = Arrays.copyOf(arrayThree, arrayThree.length+1);//stworzenie kopii tablicy z rozmiarem +1
         System.out.println(Arrays.toString(arrayThreeCopy));//wydruk sprawdzajacy
         for (int i = 0; i<arrayThreeCopy.length-1; i++) {
             arrayThreeCopy[arrayThreeCopy.length-1-i]=arrayThreeCopy[arrayThreeCopy.length-2-i];
