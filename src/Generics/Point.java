@@ -16,4 +16,12 @@ public class Point<E extends Number> {
     public E getFieldY() {
         return fieldY;
     }
+
+    @Override
+    public String toString() {
+        return "Point{" +
+                "fieldX=" + fieldX +
+                ", fieldY=" + fieldY +
+                '}';
+    }
 }
