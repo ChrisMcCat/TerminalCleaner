@@ -1,4 +1,4 @@
-package com.infoshare.jjdd8.Arrays;
+package Arrays;
 
 import java.util.Arrays;
 
