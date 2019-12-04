@@ -20,8 +20,8 @@ public class Point<E extends Number> {
     @Override
     public String toString() {
         return "Point{" +
-                "fieldX=" + fieldX +
-                ", fieldY=" + fieldY +
+                "X=" + fieldX +
+                ", Y=" + fieldY +
                 '}';
     }
 }
