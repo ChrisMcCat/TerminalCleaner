@@ -1,6 +1,7 @@
 package Lists;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -29,6 +30,10 @@ public class Lists {
         for (Person person : persons_arrayList) {
             System.out.println(person.getFirstname() + " " + person.getSurname());
         }
+
+        System.out.println("_______________________");
+
+        Collections.sort(persons_arrayList, new PersonSurnameComparator());
 
 
 /*
