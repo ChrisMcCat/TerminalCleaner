@@ -4,6 +4,4 @@ out
 gen
 target/
 .gitignore
-pom.xml
-src/
 main/test/
